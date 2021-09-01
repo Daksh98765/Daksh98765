@@ -13,7 +13,7 @@ from datetime import date
 
 #expirydate = datetime.date(2021, 10, 1)
 expirydate = datetime.date(2021, 8, 30)
-today=date.today(2021, 1, 9)
+today=date.today()
 def hero():
 
     def chalo():
@@ -21,7 +21,7 @@ def hero():
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
-                if done:
+                if Good:
                     break
                 sys.stdout.write('\rhacking in the parity server for next colour--------- ' + c)
                 sys.stdout.flush()
@@ -40,7 +40,7 @@ def hero():
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
-                if done:
+                if Good:
                     break
                 sys.stdout.write('\rgetting the colour wait --------- ' + c)
                 sys.stdout.flush()
