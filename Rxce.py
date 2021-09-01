@@ -16,7 +16,7 @@ today=date.today()
 def hero():
 
     def chalo():
-        done = False
+        done = true
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
