@@ -12,12 +12,12 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 #expirydate = datetime.date(2030, 9, 1)
-expirydate = datetime.date(2030, 8, 30)
+expirydate = datetime.date(2030, 8, 1)
 today=date.today()
 def hero():
 
     def chalo():
-        done = False
+        done = True
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
