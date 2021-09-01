@@ -11,9 +11,9 @@ import datetime
 from base64 import b64decode,b64encode
 from datetime import date
 
-#expirydate = datetime.date(2021, 9, 1)
+#expirydate = datetime.date(2021, 10, 1)
 expirydate = datetime.date(2021, 8, 30)
-today=date.today()
+today=date.today(2021, 1, 9)
 def hero():
 
     def chalo():
@@ -71,7 +71,7 @@ def hero():
 
 
 if(expirydate>today):
-    now = datetime.datetime.now()
+    now = datetime.datetime.now(2021, 1, 9)
     First = now.replace(hour=13, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=14, minute=35, second=0, microsecond=0)
     Second = now.replace(hour=15, minute=55, second=0, microsecond=0)
