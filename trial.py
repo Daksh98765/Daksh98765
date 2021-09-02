@@ -1,9 +1,9 @@
 
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
-#expirydate = datetime.date(2030, 9, 1)
-expirydate = datetime.date(2030, 8, 1)
-today=date.today()
+#expirydate = datetime.date(2021, 10, 1)
+expirydate = datetime.date(2021, 10, 1)
+today=date.
 def hero():
 
     def chalo():
