@@ -1,4 +1,3 @@
-
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 #expirydate = datetime.date(2021, 10, 1)
