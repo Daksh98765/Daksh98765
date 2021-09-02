@@ -12,11 +12,11 @@ from datetime import date
 
 expirydate = datetime.date(2021, 10, 2)
 #expirydate = datetime.date(2021, 10, 1)
-today=date.today()
+today=date.today(2021, 2, 9)
 def hero():
 
     def chalo():
-        done = True
+        done = False
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
