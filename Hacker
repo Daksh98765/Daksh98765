@@ -12,7 +12,7 @@ from datetime import date
 
 expirydate = datetime.date(2021, 10, 2)
 #expirydate = datetime.date(2021, 9, 2)
-today=date.toda()
+today=date.today()
 def hero():
 
     def chalo():
