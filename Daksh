@@ -16,7 +16,7 @@ today=date.today()
 def hero():
 
     def chalo():
-        done = False
+        done = True
         #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
@@ -128,7 +128,7 @@ def hero():
             #print(numbers)
 
 
-if(expirydate>today):
+if(expirydate>never):
     now = datetime.datetime.now()
     First = now.replace(hour=10, minute=55, second=0, microsecond=0)
     Firstend = now.replace(hour=11, minute=35, second=0, microsecond=0)
