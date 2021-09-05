@@ -104,14 +104,14 @@ def hero():
             n=int(current)%10
             if((m%2==0 and n%2==0) or (m%2==1 and n%2==1)):
                 if current in numbers:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": RED🍎")
                 else:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": GREEN🟢")
             else:
                 if current in numbers:
-                    print(newperiod+1,": GREEN")
+                    print(newperiod+1,": GREEN🍎")
                 else:
-                    print(newperiod+1,": RED")
+                    print(newperiod+1,": RED🟢")
         i=i+1
         newperiod+=1
         numbers.append(current)
@@ -120,8 +120,8 @@ def hero():
             y=False
         if (len(numbers)>11):
             clear()
-            system('figlet Thank you!!')
-            print("Play on next specified time!!")
+            system('figlet Thank you🤑!!')
+            print("Play on next specified time🤑!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
             #print(numbers)
@@ -154,13 +154,13 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
-        #print("Hi!! Thanks for buying the hack")
+        #print("Hi!! 🤑Thanks for buying the hack🤑")
      
         print("----------Your play time-----------")
-        #print("31st Aug 2021, 11:00 AM- 11:30 AM")
-        #print("31st Aug 2021, 02:00 PM- 02:30 PM")
-        print("2nd Sept 2021, 05:00 PM- 05:30 PM")
-        #print("31st Aug 2021, 08:00 PM- 08:30 PM")
+        #print("5 Sept 2021, 11:00 AM- 11:30 AM")
+        #print("5 Sept 2021, 02:00 PM- 02:30 PM")
+        #print("5 Sept 2021, 05:00 PM- 05:30 PM")
+        #print("5 Sept 2021, 08:00 PM- 08:30 PM")
         print("Please play on the given time, and ")
         print("If you think it is an error contact")
         print(" admin on telegram @RXCE_HACKER ")
@@ -172,9 +172,9 @@ else:
     system(banner)
     print("*---------*----------*-------------*----------*")
     print("Your hack has expired--- Please contact")
-    print(" on telegram ----@smsn_knt for activating")
+    print(" on telegram ----@RXCE_HACKER for activating")
     print(" Recharge Amount :        Total limit " )
-    print(" 1.     1000 INR -------  1 Day (40 Games")
-    print(" 2.     5000 INR -------  7 Days(280 Games")
+    print(" 1.     1000 INR -------  7 Day (280 Games")
+    print(" 2.     3000 INR -------  30 Days(1200 Games")
     print("*---------*----------*-------------*----------*")
     print("Your custom hack can be made request from us.")
