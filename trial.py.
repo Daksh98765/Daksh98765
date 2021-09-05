@@ -154,8 +154,7 @@ if(expirydate>today):
             hero()
     else:
         banner='figlet RXCE'
-        #print("Hi!! 🤑Thanks for buying the hack🤑")
-     
+        print("Hi!! 🤑Thanks for buying the hack🤑")
         print("----------⌛Your play time⌛----------")
         print("5 Sept 2021, 11:00 AM- 11:30 AM")
         print("5 Sept 2021, 02:00 PM- 02:30 PM")
