@@ -84,7 +84,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
-        check=check(last2)
+      
         if(newperiod%2==0):
             sum=getSum(current)+check
             if(sum%2==0):
@@ -133,7 +133,7 @@ if(expirydate>today):
     elif(False):
             period=340
             hero()
-    elif(True):
+    elif(now>Final and now<Finalend):
             period=414
             hero()
     else:
