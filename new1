@@ -84,7 +84,7 @@ def hero():
         print("\n---------Successfully got the colour -------------")
         print('\n')
         last2=str(current)[-2:]
-        check=checkg(last2)
+        check=check(last2)
         if(newperiod%2==0):
             sum=getSum(current)+check
             if(sum%2==0):
@@ -135,7 +135,7 @@ if(expirydate>today):
             hero()
     elif(True):
             period=414
-            hero()
+            
     else:
         banner='figlet RXCE'
         system(banner)
