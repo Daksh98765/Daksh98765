@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
+expirydate = datetime.date(2021, 10, 3)
 #expirydate = datetime.date(2021, 9, 3)
-expirydate = datetime.date(2021, 9, 3)
 today=date.today
 def hero():
 
@@ -70,8 +70,8 @@ if(expirydate>never):
     Final = now.replace(hour=17, minute=55, second=0, microsecond=0)
     Finalend = now.replace(hour=18, minute=35, second=0, microsecond=0)
 
-    if (False):
-            period=220
+    if (True):
+            period=185
             hero()
     elif(now>First and now<Firstend):
             period=280
