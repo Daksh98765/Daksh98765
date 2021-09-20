@@ -142,14 +142,14 @@ if(expirydate>today):
     if (now>First and now<Firstend):
             period=220
             hero()
-    elif(now>Second and now<Secondend):
-            period=280
+    elif(True):
+            period=404
             hero()
     elif(now>Third and now<Thirdend):
             period=340
             hero()
     elif(now>Final and now<Finalend):
-            period=400
+            period=404
             hero()
     else:
         banner='figlet RXCE'
