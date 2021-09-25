@@ -142,11 +142,11 @@ if(expirydate>today and playday==today):
             #print("Please try again later")
             #exit()
             #hero()
-    if(now>Third and now<Thirdend):
-            period=390
+    if(True):
+            period=398
             hero()
     elif(True):
-            period=397
+            period=398
             hero()
     else:
         banner='figlet RXCE'
