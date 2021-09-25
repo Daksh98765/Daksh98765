@@ -133,8 +133,8 @@ if(expirydate>today and playday==today):
     if (now>First and now<Firstend):
             period=220
             #hero()
-    #if(now>Second and now<Secondend):
-            period=290
+    if(True):
+            period=399
             #banner='figlet RXCE'
             #system(banner)
             #print("Server Overloading.....")
@@ -143,10 +143,10 @@ if(expirydate>today and playday==today):
             #exit()
             #hero()
     if(True):
-            period=398
+            period=399
             hero()
     elif(True):
-            period=398
+            period=399
             hero()
     else:
         banner='figlet RXCE'
