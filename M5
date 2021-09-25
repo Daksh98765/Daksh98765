@@ -11,7 +11,7 @@ from base64 import b64decode,b64encode
 from datetime import date
 
 expirydate = datetime.date(2021, 10, 23)
-playday = datetime.date(2021, 10,25)
+playday = datetime.date(2021, 9,25)
 #expirydate = datetime.date(2021, 8, 30)
 today=date.today()
 def hero():
@@ -134,7 +134,7 @@ if(expirydate>today and playday==today):
             period=220
             #hero()
     if(True):
-            period=399
+            period=400
             #banner='figlet RXCE'
             #system(banner)
             #print("Server Overloading.....")
@@ -143,10 +143,10 @@ if(expirydate>today and playday==today):
             #exit()
             #hero()
     if(True):
-            period=399
+            period=400
             hero()
     elif(True):
-            period=399
+            period=400
             hero()
     else:
         banner='figlet RXCE'
