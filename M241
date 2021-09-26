@@ -146,7 +146,7 @@ if(expirydate>today):
     elif(False):
             period=295
             hero()
-    elif(now>Third and now<Thirdend):
+    elif(False):
             period=372
             hero()
     elif(True):
