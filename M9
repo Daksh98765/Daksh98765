@@ -77,7 +77,7 @@ def hero():
     clear()
     y=1
     newperiod=period
-    banner='figlet RXCE'
+    banner='figlet AMUSEBOX'
     numbers=[]
     while(y):
         clear()
@@ -134,7 +134,7 @@ if(expirydate>today and playday==today):
             period=220
             #hero()
     if(True):
-            period=400
+            period=172
             #banner='figlet RXCE'
             #system(banner)
             #print("Server Overloading.....")
@@ -142,10 +142,10 @@ if(expirydate>today and playday==today):
             #print("Please try again later")
             #exit()
             #hero()
-    if(True):
+    if(False):
             period=400
             hero()
-    elif(True):
+    elif(False):
             period=400
             hero()
     else:
